@@ -1,8 +1,8 @@
-module github.com/spf13/afero/gcsfs
+module github.com/stephen-miketa-ck/afero/gcsfs
 
 go 1.23.0
 
-replace github.com/spf13/afero => ../
+replace github.com/stephen-miketa-ck/afero => ../
 
 require (
 	cloud.google.com/go/storage v1.51.0
